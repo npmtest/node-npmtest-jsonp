@@ -1,6 +1,6 @@
 # npmtest-jsonp
 
-#### test coverage for  [jsonp (v0.2.1)](https://github.com/LearnBoost/jsonp#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-jsonp.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-jsonp) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-jsonp.svg)](https://travis-ci.org/npmtest/node-npmtest-jsonp)
+#### basic test coverage for  [jsonp (v0.2.1)](https://github.com/LearnBoost/jsonp#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-jsonp.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-jsonp) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-jsonp.svg)](https://travis-ci.org/npmtest/node-npmtest-jsonp)
 
 #### A sane JSONP implementation.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-jsonp/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-jsonp/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-jsonp/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-jsonp/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-jsonp/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-jsonp/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-jsonp/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-jsonp/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-jsonp/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-jsonp/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-jsonp/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-jsonp/build/coverage.html/index.html)
 
@@ -79,7 +79,8 @@
         "test": "zuul -- test/*.js",
         "test-local": "zuul --local -- test/*.js"
     },
-    "version": "0.2.1"
+    "version": "0.2.1",
+    "bin": {}
 }
 ```
 
